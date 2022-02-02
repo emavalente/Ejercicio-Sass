@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* SCSS Variables de paleta HEX */
+#main {
+  background-color: #000500ff;
+  height: 76vh; }
+  #main h1 {
+    color: #3e78b2ff;
+    padding-top: 30px;
+    margin-left: 50px; }
+  #main div {
+    margin-left: 50px;
+    color: blanchedalmond;
+    padding-top: 30px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    #main div a {
+      width: 80px;
+      color: cornflowerblue;
+      background-color: #aa3d77ff;
+      padding: 10px;
+      font-size: 1rem;
+      text-align: center;
+      margin-left: 20px; }
+      #main div a:hover {
+        background-color: cornflowerblue;
+        color: blanchedalmond; }
+
+#maincontacto {
+  color: darkgreen;
+  background-color: darkmagenta; }
+
+header {
+  width: 100%;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  background-color: #aa3d77ff; }
+  header .nav .listaLinks {
+    justify-content: space-evenly; }
+    header .nav .listaLinks li {
+      display: inline-block; }
+      header .nav .listaLinks li .linkMenu {
+        text-decoration: none;
+        padding: 10px;
+        color: deepskyblue; }
+        header .nav .listaLinks li .linkMenu:hover {
+          background-color: #3e78b2ff;
+          color: floralwhite; }
+
+footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #3e78b2ff;
+  color: #303633ff;
+  text-align: center; }
+  footer p {
+    padding-top: 20px; }

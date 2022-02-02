@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// Importacion de Variables siempre arriba de las demas importaciones.
+@import "./variables/colores.scss";
+//Importaciones deben ser llamadas en el archivo principal:
+//el archivo a importar no lleva extension.
+@import "./secciones/index";
+@import "./secciones/contacto";
+@import "./header-footer/header";
+@import "./header-footer/footer";

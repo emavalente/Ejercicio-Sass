@@ -1,0 +1,25 @@
+// Sintaxis SASS con anidamiento de selectores.
+header {
+  width: 100%;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  background-color: $maximum-red-purple;
+  .nav {
+    .listaLinks {
+      justify-content: space-evenly;
+      li {
+        display: inline-block;
+        .linkMenu {
+          text-decoration: none;
+          padding: 10px;
+          color: deepskyblue;
+          &:hover {
+            background-color: $bright-navy-blue;
+            color: floralwhite;
+          }
+        }
+      }
+    }
+  }
+}
